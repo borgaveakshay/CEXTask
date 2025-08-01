@@ -45,7 +45,6 @@ class ExchangeRateViewModel(
                             isLoading = true
                         )
                     }
-
                 }
                 is Result.Success -> {
                     _exchangeRateState.update {
